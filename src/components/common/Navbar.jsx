@@ -82,7 +82,7 @@ function Navbar() {
                                     .split(" ")
                                     .join("-")
                                     .toLowerCase()}`}
-                                  className="rounded-lg  text-black bg-transparent py-4 pl-4 hover:bg-richblack-50"
+                                  className="rounded-lg bg-transparent py-4 pl-4 hover:bg-richblack-50"
                                   key={i}
                                 >
                                   <p>{subLink.name}</p>

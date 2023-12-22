@@ -109,10 +109,10 @@ const ContactUsForm = () => {
         <div className="flex gap-5">
           <div className="flex w-[81px] flex-col gap-2">
             <select
-              type="text"
-              name="firstname"
-              id="firstname"
-              placeholder="Enter first name"
+              type="number"
+              name="countrycode"
+              id="countrycode"
+              // placeholder="Enter first name"
               className="form-style"
               {...register("countrycode", { required: true })}
             >

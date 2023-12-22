@@ -76,7 +76,7 @@ router.post("/editCourse", auth, isInstructor, editCourse)
 // Get all Courses Under a Specific Instructor
 router.get("/getInstructorCourses", auth, isInstructor, getInstructorCourses)
 // Delete a Course
-router.delete("/deleteCourse", deleteCourse)
+router.delete("/deleteCourse",auth, isInstructor, deleteCourse)
 
 // ********************************************************************************************************
 //                                      Category routes (Only by Admin)
